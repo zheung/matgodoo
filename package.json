@@ -1,0 +1,34 @@
+{
+	"name": "matgodoo",
+	"version": "1.0.0",
+	"description": "网页游戏《拼音小成语》的简易筛选拼音工具",
+	"author": "Nuogz",
+	"license": "LGPL-3.0-or-later",
+	"main": "index.js",
+	"type": "module",
+	"engines": {
+		"node": ">=14.18.1"
+	},
+	"scripts": {
+		"开发": "vite",
+		"构建": "vite build",
+		"预览": "http-server dist -a 127.0.0.1 -p 14757"
+	},
+	"dependencies": {
+		"@types/matter-js": "^0.17.7",
+		"http-server": "^14.1.0",
+		"matter-js": "^0.18.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-legacy": "^1.7.1",
+		"@vitejs/plugin-vue": "^2.2.4",
+		"autoprefixer": "^10.4.2",
+		"eslint": "^8.11.0",
+		"eslint-plugin-vue": "^8.5.0",
+		"postcss": "^8.4.8",
+		"sass": "^1.49.9",
+		"tailwindcss": "^3.0.23",
+		"vite": "^2.8.6",
+		"vue": "^3.2.31"
+	}
+}
